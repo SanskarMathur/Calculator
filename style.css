@@ -1,0 +1,118 @@
+*{margin: 0px; padding: 0px; border: 0px; font-family: 'Open Sans', sans-serif;}
+
+body {
+    background-color: turquoise;
+    transition: 0.2s;
+}
+
+h1 {
+    margin-left: 40%;
+    margin-top: 100px;
+    color: white;
+    font-weight: 700;
+    color: #FF9300;
+    transition: 0.2s;
+}
+
+.result-C {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-items: center;
+    width: 350px;
+    margin-left: 40%;
+    justify-content: space-between;
+    transition: 0.2s;
+}
+
+input {
+    padding: 23px 30.5px;
+    text-align: right;
+    font-size: 17px;
+    border-radius: 2px;
+    transition: 0.2s;
+    color: rgb(134, 131, 131, 0.7);
+    border-radius: 4px;
+}
+
+.clear-btn {
+    padding: 25px 36.3px;
+    font-size: 15px;   
+    background-color: #FF0000; 
+    color: whitesmoke;  
+    border-radius: 4px;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 40%;
+    width: 350px;
+    margin-top: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 25px 35px;
+    font-size: 20px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.buttons .btn {
+    transition: 0.2s;
+}
+
+.buttons .btn:hover {
+    background-color: #FF8243;
+    color: white;
+}
+
+.buttons .equal-btn:hover {
+    background-color: green;
+}
+
+.divide-btn {
+    padding: 25px 33.3px;
+    font-size: 17px;
+}
+
+.multiply-btn {
+    padding: 25px 35.5px;
+}
+
+.dot-btn {
+    padding: 25px 38px;
+}
+
+.minus-btn {
+    font-size: 25px;
+    padding: 25px 36.5px;
+}
+
+.toggle {
+    margin-left: 40%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Reset {
+    margin-left: 90px;
+    padding: 10px 40px;
+    transition: 0.2s;
+}
+
+.Reset:hover {
+    background-color: crimson;
+}
+
+/* Dark mode */
+
+.dark {
+    background-color: black;
+}
+
+.dark .btn, .dark input {
+    background-color: rgb(109, 109, 109);
+    color: rgb(210, 210, 210);
+}
